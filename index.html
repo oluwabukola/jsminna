@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="signup-container">
+        <div class="sign">
+            <h2>Sign Up</h2>
+            <p class="fill">Please fill in this form to create an account</p>
+            </div>
+            <hr/>
+            
+        <form class="signup"  noValidate>
+           
+        
+            <input type="text" 
+                class="name"
+                id="first"
+                name="first"
+    
+                placeholder="First Name" />
+            <span className="errorMessage"></span>
+            <input type="text" class="name"
+                name="last"
+                id="last" 
+                placeholder="Last Name" />
+            <span className="errorMessage"></span>
+            <input type="email" name="email" id="email" 
+                placeholder="Email" />
+            <span className="errorMessage"></span>
+            <input type="password" name="password"
+            id="password"
+                placeholder="Password" />
+            <span className="errorMessage"></span>
+            <input type="password" name="confirmPassword"
+            id="confirmPassword"
+                placeholder="Confirm Password" />
+<button type="button"  class="signup-button" id="up" >Create Account</button>
+<div class="error"></div>
+</form>
+<p>Already have an acount? <span class="log">Login<span></p>
+</div>
+<div class="login-container">
+    <form class="login" noValidate>
+        <input type="email" name="email" id="emails"
+            placeholder="Email"
+            class="input" />
+        <input type="password"
+            name="password"
+            id="passwords"
+            class="input"
+            placeholder="Password" />
+            
+       
+        <button type="button" class="login-button" >Login</button>
+    </form>
+</div>
+
+<div class="msg"><h1>Welcome!!</h1></div>
+ 
+   
+    
+    <script src="script.js"></script>
+
+</body>
+</html>
